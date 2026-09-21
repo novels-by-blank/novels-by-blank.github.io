@@ -178,7 +178,7 @@ resetPasswordButton.addEventListener(
         await supabaseClient.auth.resetPasswordForEmail(
           email,
           {
-            redirectTo: "http://localhost:8000/reset-password.html"
+            redirectTo: "https://novels-by-blank.github.io/reset-password.html"
           }
         );
 

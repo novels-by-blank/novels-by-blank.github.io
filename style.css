@@ -240,7 +240,7 @@ h3 {
 }
 
 .cover-title {
-  font-family: "Jameel Noori Nastaleeq", serif;
+  font-family: "Jameel Noori Nastaleeq Web", serif;
   font-size: 45px;
   line-height: 1.4;
   direction: rtl;
@@ -323,7 +323,7 @@ h3 {
 .novel-info p { color: var(--muted); }
 
 .urdu {
-  font-family: "Jameel Noori Nastaleeq", serif;
+  font-family: "Jameel Noori Nastaleeq Web", serif;
   font-size: 21px;
   line-height: 2;
   direction: rtl;
@@ -484,7 +484,7 @@ h3 {
 }
 
 .section-heading .urdu-heading {
-  font-family: "Jameel Noori Nastaleeq", "Noto Naskh Arabic", serif;
+  font-family: "Jameel Noori Nastaleeq Web", "Noto Naskh Arabic", serif;
   direction: rtl;
   text-align: right !important;
   display: block;
@@ -704,7 +704,7 @@ h3 {
   row-gap: 18px;
   width: 100%;
   margin: 35px 0 40px 0;
-  font-family: "Jameel Noori Nastaleeq", serif;
+  font-family: "Jameel Noori Nastaleeq Web", serif;
   font-size: 23px;
   line-height: 1.8;
   text-align: center;
@@ -860,7 +860,7 @@ h3 {
 
 .locked-novel h2 {
   margin-bottom: 18px;
-  font-family: "Jameel Noori Nastaleeq", serif;
+  font-family: "Jameel Noori Nastaleeq Web", serif;
   font-size: 40px;
   line-height: 1.7;
   direction: rtl;
@@ -870,7 +870,7 @@ h3 {
   max-width: 570px;
   margin: 0 auto 20px !important;
   color: var(--muted);
-  font-family: "Jameel Noori Nastaleeq", serif;
+  font-family: "Jameel Noori Nastaleeq Web", serif;
   font-size: 21px !important;
   line-height: 2;
   direction: rtl !important;
@@ -981,7 +981,7 @@ h3 {
 
 .account-box h2 {
   margin-bottom: 12px;
-  font-family: "Jameel Noori Nastaleeq", serif;
+  font-family: "Jameel Noori Nastaleeq Web", serif;
   font-size: 38px;
   line-height: 1.7;
   direction: rtl;
@@ -991,7 +991,7 @@ h3 {
   max-width: 560px;
   margin: 0 auto 30px;
   color: var(--muted);
-  font-family: "Jameel Noori Nastaleeq", serif;
+  font-family: "Jameel Noori Nastaleeq Web", serif;
   font-size: 21px;
   line-height: 2;
   direction: rtl;
@@ -1081,7 +1081,7 @@ h3 {
 
 .access-request-box h2 {
   margin-bottom: 12px;
-  font-family: "Jameel Noori Nastaleeq", serif;
+  font-family: "Jameel Noori Nastaleeq Web", serif;
   font-size: 38px;
   line-height: 1.7;
   direction: rtl;
@@ -1091,7 +1091,7 @@ h3 {
   max-width: 560px;
   margin: 0 auto 30px;
   color: var(--muted);
-  font-family: "Jameel Noori Nastaleeq", serif;
+  font-family: "Jameel Noori Nastaleeq Web", serif;
   font-size: 21px;
   line-height: 2;
   direction: rtl;
@@ -1599,4 +1599,27 @@ h3 {
   .reader-page {
     overflow-x: hidden;
   }
+}
+
+/* =========================================
+   MOBILE POETRY — ONE LINE BELOW THE OTHER
+   ========================================= */
+
+@media (max-width: 600px) {
+
+  .poetry-line {
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: none !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin-bottom: 22px !important;
+  }
+
+  .poetry-line span {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
 }
