@@ -899,11 +899,12 @@ h3 {
   }
 
   .locked-novel h2 {
-    font-size: 32px;
+    font-size: 20
+    px;
   }
 
   .locked-text {
-    font-size: 19px !important;
+    font-size: 10px !important;
   }
 
 }
