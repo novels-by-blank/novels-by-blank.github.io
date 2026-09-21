@@ -899,8 +899,7 @@ h3 {
   }
 
   .locked-novel h2 {
-    font-size: 20
-    px;
+    font-size: 20px;
   }
 
   .locked-text {
@@ -1527,5 +1526,69 @@ h3 {
 
   .payment-form-group input::placeholder {
     font-size: 16px;
+  }
+}
+
+/* ================================
+   MOBILE NOVEL PAGE
+   ================================ */
+
+@media (max-width: 600px) {
+
+  /* Make the main novel box fit the phone */
+  .preview-box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 22px 16px;
+  }
+
+  /* Smaller Urdu story text */
+  .preview-text {
+    font-size: 17px !important;
+    line-height: 2 !important;
+  }
+
+  /* Smaller poetry text */
+  .poetry {
+    font-size: 17px !important;
+    line-height: 2 !important;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 35px auto;
+  }
+
+  /* Put each poetry line underneath the other on mobile */
+  .poetry-line {
+    grid-template-columns: 1fr;
+    row-gap: 0;
+    width: 100%;
+  }
+
+  .poetry-line span {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  /* Smaller chapter heading */
+  .chapter-heading {
+    font-size: 27px !important;
+    line-height: 1.8 !important;
+    margin: 40px 0 25px 0;
+  }
+
+  /* Smaller novel title inside preview */
+  .urdu-preview-title {
+    font-size: 32px !important;
+  }
+
+  /* Smaller page title at the top */
+  .reader-intro .urdu-title {
+    font-size: 36px !important;
+  }
+
+  /* Keep the reader area from creating horizontal overflow */
+  .reader-page {
+    overflow-x: hidden;
   }
 }
